@@ -1,4 +1,4 @@
-// run this code in console on a YouTube video
+// run this code in console on any YouTube video
 // select input field and press 'enter' on keybaord when "Skip Ads" appears
 
 const containerBox = document.createElement("input");
