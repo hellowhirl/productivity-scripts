@@ -1,13 +1,12 @@
-// run this cdoe in console on a YouTube video
-// press 'enter' on keybaord wheneever "Skip Ads" appears to immediately skip ad
+// run this code in console on a YouTube video
+// select input field and press 'enter' on keybaord when "Skip Ads" appears
 
 const containerBox = document.createElement("input");
-const textNode = document.createTextNode("Skip Ads");
-containerBox.setAttribute("id", "easyToFind");
+containerBox.setAttribute("id", "skipAdBox");
 containerBox.setAttribute("value", "PRESS ENTER HERE");
 document.getElementById("buttons").appendChild(containerBox);
 
-const input = document.getElementById("easyToFind");
+const input = document.getElementById("skipAdBox");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
