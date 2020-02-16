@@ -33,3 +33,16 @@ const observer = new MutationObserver(callback);
 
 // Start observing the target node for configured mutations
 observer.observe(targetNode, config);
+
+//
+// hide recommend videos section and comments
+
+(function() {
+  setTimeout(function() {
+    const sidebar = document.getElementById("related");
+    sidebar.style.display = "none";
+
+    const comments = document.getElementById("comments");
+    comments.style.display = "none";
+  }, 500);
+})();
