@@ -12,11 +12,16 @@ They can be pasted in tn the console and executed manually or be automatically e
 
 ### facebookHomepage.js
 
+- Remove newsfeed from Facebook homepage
+
 ### youtubeHomepage.js
+
+- Remove Recommended Videos on YT homepage
 
 ### youtubeVideoPage.js
 
-- Removes comments and recommended videos from video page.
+- Remove comments and recommended videos from video page
+
 - Provide way to skip the ads on YouTube with the press of a button (customizabe).
   After pasting the code in the console an input element will appear at the top navbar near your profile icon.
   Click in the input element and wait until a YouTube advertisement comes on.

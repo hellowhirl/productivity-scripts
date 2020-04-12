@@ -1,5 +1,5 @@
 //////
-// Remove Recommended Videos YT homepage
+// Remove Recommended Videos on YT homepage
 //
 
 const mainVideos = document.getElementById("primary");

@@ -1,5 +1,5 @@
 //////
-// Remove newsfeed from Facebook
+// Remove newsfeed from Facebook homepage
 //
 
 const mainColumn = document.getElementById("contentCol");
