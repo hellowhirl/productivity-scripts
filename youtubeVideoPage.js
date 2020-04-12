@@ -13,42 +13,19 @@
 })();
 
 //////
-// select input field and press 'enter' on keybaord when "Skip Ads" appears
+// select input field and press '0' on keybaord when "Skip Ads" appears
 //
 
 const containerBox = document.createElement("input");
 containerBox.setAttribute("id", "skipAdBox");
-containerBox.setAttribute("value", "PRESS ENTER HERE");
+containerBox.setAttribute("value", "PRESS 0 HERE");
 
-document.getElementById("buttons").appendChild(containerBox);
+document.getElementById("search-form").appendChild(containerBox);
 
 const input = document.getElementById("skipAdBox");
 input.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
+  if (event.keyCode === 48) {
     event.preventDefault();
     document.getElementsByClassName("ytp-ad-skip-button ytp-button")[0].click();
   }
 });
-
-//////
-// 🚧 UNDER CONSTRUCTION 🚧 //
-//
-
-// Select the node that will be observed for mutations
-const targetNode = document.getElementsByTagName("h1")[0];
-
-// Options for the observer (which mutations to observe)
-const config = { attributes: true, childList: true, subtree: true };
-
-// Callback function to execute when mutations are observed
-const callback = function() {
-  setTimeout(function() {
-    document.getElementById("buttons").appendChild(containerBox);
-  }, 500);
-};
-
-// Create an observer instance linked to the callback function
-const observer = new MutationObserver(callback);
-
-// Start observing the target node for configured mutations
-observer.observe(targetNode, config);
