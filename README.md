@@ -7,12 +7,17 @@ They can be pasted in tn the console and executed manually or be automatically e
 ## Contents
 
 - facebookHomepage.js
+- linkedinHomepage.js
 - youtubeHomepage.js
 - youtubeVideoPage.js
 
 ### facebookHomepage.js
 
 - Remove newsfeed from Facebook homepage
+
+### linkedinHomepage.js
+
+- Remove newsfeed from LinkedIn homepage, including side panels
 
 ### youtubeHomepage.js
 
