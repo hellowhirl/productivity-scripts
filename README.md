@@ -1,8 +1,9 @@
 # console-js-hacks
+🐒JavaScript programs that modify websites like YouTube and Facebook
 
-These are code snippets that you can run in the dev tools console to optimize your experience on certain websites like YouTube and Facebook.
+These are code snippets that you can run in the dev tools console to optimize your experience on certain websites like YouTube's video page and Facebook's homepage.
 
-They can be pasted in tn the console and executed manually or be automatically executed with a userscript manager (Tampermonkey, Greasemonkey, etc.)
+They can be pasted in tn the console and executed manually or automatically executed with a userscript manager like Tampermonkey or Greasemonkey.
 
 ## Contents
 
