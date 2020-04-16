@@ -2,15 +2,13 @@
 // hide reccommended videos section and comments
 //
 
-(function() {
-  setTimeout(function() {
-    const sidebar = document.getElementById("related");
-    sidebar.style.display = "none";
+setTimeout(function() {
+  const sidebar = document.getElementById("related");
+  sidebar.style.display = "none";
 
-    const comments = document.getElementById("comments");
-    comments.style.display = "none";
-  }, 1000);
-})();
+  const comments = document.getElementById("comments");
+  comments.style.display = "none";
+}, 1000);
 
 //////
 // select input field and press '0' on keybaord when "Skip Ads" appears
@@ -29,3 +27,11 @@ input.addEventListener("keyup", function(event) {
     document.getElementsByClassName("ytp-ad-skip-button ytp-button")[0].click();
   }
 });
+
+//////
+// hide author recommended videos at end of a video
+//
+
+const extraVideos = document.getElementsByClassName("ytp-ce-video ");
+
+for (let element of extraVideos) element.style.display = "none";
