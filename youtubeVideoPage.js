@@ -33,9 +33,11 @@ input.addEventListener("keyup", function (event) {
 // hide author recommended videos at end of a video
 //
 
-const extraVideos = document.getElementsByClassName("ytp-ce-video ");
+const extraVideos = document.getElementsByClassName("ytp-ce-video");
+const otherExtraVideos = document.getElementsByClassName("ytp-ce-element");
 
 for (let element of extraVideos) element.style.display = "none";
+for (let element of otherExtraVideos) element.style.display = "none";
 
 //////
 // hide related videos at end of video
