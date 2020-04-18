@@ -2,7 +2,7 @@
 // hide reccommended videos section and comments
 //
 
-setTimeout(function() {
+setTimeout(function () {
   const sidebar = document.getElementById("related");
   sidebar.style.display = "none";
 
@@ -15,13 +15,14 @@ setTimeout(function() {
 //
 
 const containerBox = document.createElement("input");
+
 containerBox.setAttribute("id", "skipAdBox");
 containerBox.setAttribute("value", "PRESS 0 HERE");
-
 document.getElementById("search-form").appendChild(containerBox);
 
 const input = document.getElementById("skipAdBox");
-input.addEventListener("keyup", function(event) {
+
+input.addEventListener("keyup", function (event) {
   if (event.keyCode === 48) {
     event.preventDefault();
     document.getElementsByClassName("ytp-ad-skip-button ytp-button")[0].click();
@@ -35,3 +36,13 @@ input.addEventListener("keyup", function(event) {
 const extraVideos = document.getElementsByClassName("ytp-ce-video ");
 
 for (let element of extraVideos) element.style.display = "none";
+
+//////
+// hide related videos at end of video
+//
+
+setTimeout(() => {
+  const endScreen = document.getElementsByClassName("ytp-endscreen-content")[0];
+
+  endScreen.style.display = "none";
+}, 2000);
