@@ -40,6 +40,17 @@ for (let element of extraVideos) element.style.display = "none";
 for (let element of otherExtraVideos) element.style.display = "none";
 
 //////
+// hide video count
+//
+
+// const videoCount = document.getElementById("count");
+const videoCount = document.querySelectorAll(
+  "#count .ytd-video-primary-info-renderer"
+)[0];
+
+videoCount.style.display = "none";
+
+//////
 // hide related videos at end of video
 //
 
