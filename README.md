@@ -1,4 +1,4 @@
-# console-js-hacks
+# Productivity Scripts
 
 🐒 JavaScript programs that modify websites like YouTube and Facebook
 
