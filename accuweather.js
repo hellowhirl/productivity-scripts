@@ -8,14 +8,21 @@ sideColumn.style.display = "none";
 const temperatures = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .temp")
 );
+const weeklyTemperatures = Array.from(
+  document.querySelectorAll(".daily-forecast-card .temp .high")
+);
 function shrinkTemperatures(elements) {
   elements.forEach((element) => (element.style.fontSize = "26px"));
 }
 shrinkTemperatures(temperatures);
+shrinkTemperatures(weeklyTemperatures);
 
 //
 const icons = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .icon")
+);
+const weekliyIcons = Array.from(
+  document.querySelectorAll(".daily-forecast-card .icon")
 );
 function shrinkIcons(elements) {
   elements.forEach(
@@ -25,6 +32,7 @@ function shrinkIcons(elements) {
   );
 }
 shrinkIcons(icons);
+shrinkIcons(weekliyIcons);
 
 //
 const phrases = Array.from(
