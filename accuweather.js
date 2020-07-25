@@ -4,21 +4,21 @@ videoBox.style.display = "none";
 const sideColumn = document.getElementsByClassName("page-column-2")[0];
 sideColumn.style.display = "none";
 
-//
-const temperatures = Array.from(
+// Temperatures
+const hourlyTemperatures = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .temp")
 );
-const weeklyTemperatures = Array.from(
+const dailyTemperatures = Array.from(
   document.querySelectorAll(".daily-forecast-card .temp .high")
 );
 function shrinkTemperatures(elements) {
   elements.forEach((element) => (element.style.fontSize = "26px"));
 }
-shrinkTemperatures(temperatures);
-shrinkTemperatures(weeklyTemperatures);
+shrinkTemperatures(hourlyTemperatures);
+shrinkTemperatures(dailyTemperatures);
 
-//
-const icons = Array.from(
+// Weather Icons
+const hourlyIcons = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .icon")
 );
 const weekliyIcons = Array.from(
@@ -31,23 +31,38 @@ function shrinkIcons(elements) {
     )
   );
 }
-shrinkIcons(icons);
+shrinkIcons(hourlyIcons);
 shrinkIcons(weekliyIcons);
 
-//
-const phrases = Array.from(
+// Phrases
+const hourlyPhrases = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .phrase")
+);
+const dailyPhrases = Array.from(
+  document.querySelectorAll(".daily-forecast-card .phrase")
 );
 function shrinPhrases(elements) {
   elements.forEach((element) => (element.style.fontSize = "16px"));
 }
-shrinPhrases(phrases);
+shrinPhrases(hourlyPhrases);
+shrinPhrases(dailyPhrases);
 
-//
-const precipitations = Array.from(
+// Precipitations
+const hourlyPrecipitations = Array.from(
   document.querySelectorAll(".hourly-card-nfl-header .precip")
+);
+const dailyPrecipitations = Array.from(
+  document.querySelectorAll(".daily-forecast-card .precip")
 );
 function enlargePrecipitations(elements) {
   elements.forEach((element) => (element.style.fontSize = "17px"));
 }
-enlargePrecipitations(precipitations);
+enlargePrecipitations(hourlyPrecipitations);
+enlargePrecipitations(dailyPrecipitations);
+
+// Row Height (daily)
+const dailyRows = Array.from(document.querySelectorAll(".daily-forecast-card"));
+function shringRows(elements) {
+  elements.forEach((element) => (element.style.height = "72px"));
+}
+shringRows(dailyRows);
