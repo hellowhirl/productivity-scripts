@@ -16,6 +16,7 @@ They can be pasted in tn the console and executed manually or automatically exec
 - linkedinHomepage.js
 - youtubeHomepage.js
 - youtubeVideoPage.js
+- accuweather.js
 
 ### facebookHomepage.js
 
@@ -39,3 +40,9 @@ They can be pasted in tn the console and executed manually or automatically exec
 
   The moment the ad comes up you can push the button (default is set to "0" key) to skip, without having to wait the standard 5 seconds or so.
   If another ad comes on during the same video the one-button-skip will still continue to work.
+
+### accuweather.js
+
+- Remove ads and recommended content in side panel for hourly and daily forecasts on https://www.accuweather.com
+
+- Shrink temperature row stylings for easier reading and getting a quicker glimpse of forecasts
