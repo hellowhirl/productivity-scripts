@@ -27,6 +27,8 @@ They can be pasted in tn the console and executed manually or automatically exec
 
 - Remove newsfeed from LinkedIn homepage, including side panels
 
+### linkedInNavbar.js
+
 ### youtubeHomepage.js
 
 - Remove Recommended Videos on YT homepage
