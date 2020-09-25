@@ -29,6 +29,8 @@ They can be pasted in tn the console and executed manually or automatically exec
 
 ### linkedInNavbar.js
 
+- Remove LinkedIn, newsfeed, and notification icons in top nav bar
+
 ### youtubeHomepage.js
 
 - Remove Recommended Videos on YT homepage
