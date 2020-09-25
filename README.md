@@ -14,6 +14,7 @@ They can be pasted in tn the console and executed manually or automatically exec
 
 - facebookHomepage.js
 - linkedinHomepage.js
+- linkedInNavbar.js
 - youtubeHomepage.js
 - youtubeVideoPage.js
 - accuweather.js
