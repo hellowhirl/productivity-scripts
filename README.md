@@ -29,7 +29,7 @@ They can be pasted in tn the console and executed manually or automatically exec
 
 ### linkedInNavbar.js
 
-- Remove LinkedIn, newsfeed, and notification icons in top nav bar
+- Remove LinkedIn icon, home icon, and notification icon in top nav bar
 
 ### youtubeHomepage.js
 
