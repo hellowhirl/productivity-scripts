@@ -18,6 +18,7 @@ They can be pasted in tn the console and executed manually or automatically exec
 - youtubeHomepage.js
 - youtubeVideoPage.js
 - accuweather.js
+- classicJisho.js
 
 ### facebookHomepage.js
 
