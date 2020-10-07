@@ -52,3 +52,5 @@ They can be pasted in tn the console and executed manually or automatically exec
 - Remove ads and recommended content in side panel for hourly and daily forecasts on https://www.accuweather.com
 
 - Shrink temperature row stylings for easier reading and getting a quicker glimpse of forecasts
+
+### classicJisho.js
