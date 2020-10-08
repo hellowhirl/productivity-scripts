@@ -54,3 +54,5 @@ They can be pasted in tn the console and executed manually or automatically exec
 - Shrink temperature row stylings for easier reading and getting a quicker glimpse of forecasts
 
 ### classicJisho.js
+
+- Make input text bigger 
